@@ -1,10 +1,10 @@
 /*
 LEDMatrix V4 class by Aaron Liddiment (c) 2015
 Inspiration for some of the Matrix functions from Stefan Petrick
-FastLED v3.1 library by Daniel Garcia and Mark Kriegsmann.
 Written & tested on a Teensy 3.1 using Arduino V1.6.3 & teensyduino V1.22
 */
 
+#define FASTLED_INTERNAL
 #include <FastLED.h>
 #include <LEDMatrix.h>
 
